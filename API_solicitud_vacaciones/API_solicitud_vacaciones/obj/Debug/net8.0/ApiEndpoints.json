@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "API_solicitud_vacaciones.Controllers.UsersVacationsController",
+    "Method": "Register",
+    "RelativePath": "api/UsersVacations/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "API_solicitud_vacaciones.UsersVacations",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
