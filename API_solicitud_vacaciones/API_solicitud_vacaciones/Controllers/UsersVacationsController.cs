@@ -47,7 +47,6 @@ namespace API_solicitud_vacaciones.Controllers
 
             using (var connection = new SqlConnection(_connectionString))
             {
-                connection.Open();
                 var sql = "select * from Usuarios where lastName=@lastName and email=@email;";
                 var result = connection.QuerySingleOrDefault<UsersValidation>(sql, new { user.lastName, user.email });
 

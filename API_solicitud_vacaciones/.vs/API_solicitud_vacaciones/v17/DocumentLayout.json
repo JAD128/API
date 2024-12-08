@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\juand\\Desktop\\JD\\CG\\API\\API_VF\\API_solicitud_vacaciones\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7DE224A0-5E76-4B79-96F3-D9AF0DAED3A3}|API_solicitud_vacaciones\\API_solicitud_vacaciones.csproj|c:\\users\\juand\\desktop\\jd\\cg\\api\\api_vf\\api_solicitud_vacaciones\\api_solicitud_vacaciones\\usersvacations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DE224A0-5E76-4B79-96F3-D9AF0DAED3A3}|API_solicitud_vacaciones\\API_solicitud_vacaciones.csproj|solutionrelative:api_solicitud_vacaciones\\usersvacations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7DE224A0-5E76-4B79-96F3-D9AF0DAED3A3}|API_solicitud_vacaciones\\API_solicitud_vacaciones.csproj|c:\\users\\juand\\desktop\\jd\\cg\\api\\api_vf\\api_solicitud_vacaciones\\api_solicitud_vacaciones\\controllers\\usersvacationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE224A0-5E76-4B79-96F3-D9AF0DAED3A3}|API_solicitud_vacaciones\\API_solicitud_vacaciones.csproj|solutionrelative:api_solicitud_vacaciones\\controllers\\usersvacationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7DE224A0-5E76-4B79-96F3-D9AF0DAED3A3}|API_solicitud_vacaciones\\API_solicitud_vacaciones.csproj|c:\\users\\juand\\desktop\\jd\\cg\\api\\api_vf\\api_solicitud_vacaciones\\api_solicitud_vacaciones\\usersvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DE224A0-5E76-4B79-96F3-D9AF0DAED3A3}|API_solicitud_vacaciones\\API_solicitud_vacaciones.csproj|solutionrelative:api_solicitud_vacaciones\\usersvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DE224A0-5E76-4B79-96F3-D9AF0DAED3A3}|API_solicitud_vacaciones\\API_solicitud_vacaciones.csproj|c:\\users\\juand\\desktop\\jd\\cg\\api\\api_vf\\api_solicitud_vacaciones\\api_solicitud_vacaciones\\controllers\\usersvacationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DE224A0-5E76-4B79-96F3-D9AF0DAED3A3}|API_solicitud_vacaciones\\API_solicitud_vacaciones.csproj|solutionrelative:api_solicitud_vacaciones\\controllers\\usersvacationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7DE224A0-5E76-4B79-96F3-D9AF0DAED3A3}|API_solicitud_vacaciones\\API_solicitud_vacaciones.csproj|c:\\users\\juand\\desktop\\jd\\cg\\api\\api_vf\\api_solicitud_vacaciones\\api_solicitud_vacaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DE224A0-5E76-4B79-96F3-D9AF0DAED3A3}|API_solicitud_vacaciones\\API_solicitud_vacaciones.csproj|solutionrelative:api_solicitud_vacaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE224A0-5E76-4B79-96F3-D9AF0DAED3A3}|API_solicitud_vacaciones\\API_solicitud_vacaciones.csproj|c:\\users\\juand\\desktop\\jd\\cg\\api\\api_vf\\api_solicitud_vacaciones\\api_solicitud_vacaciones\\usersvacations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE224A0-5E76-4B79-96F3-D9AF0DAED3A3}|API_solicitud_vacaciones\\API_solicitud_vacaciones.csproj|solutionrelative:api_solicitud_vacaciones\\usersvacations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -36,14 +36,14 @@
               "RelativeDocumentMoniker": "API_solicitud_vacaciones\\UsersValidation.cs",
               "ToolTip": "C:\\Users\\juand\\Desktop\\JD\\CG\\API\\API_VF\\API_solicitud_vacaciones\\API_solicitud_vacaciones\\UsersValidation.cs",
               "RelativeToolTip": "API_solicitud_vacaciones\\UsersValidation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T02:56:11.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\juand\\Desktop\\JD\\CG\\API\\API_VF\\API_solicitud_vacaciones\\API_solicitud_vacaciones\\Program.cs",
               "RelativeDocumentMoniker": "API_solicitud_vacaciones\\Program.cs",
@@ -51,11 +51,12 @@
               "RelativeToolTip": "API_solicitud_vacaciones\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T22:00:53.549Z"
+              "WhenOpened": "2024-12-06T22:00:53.549Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "UsersVacations.cs",
               "DocumentMoniker": "C:\\Users\\juand\\Desktop\\JD\\CG\\API\\API_VF\\API_solicitud_vacaciones\\API_solicitud_vacaciones\\UsersVacations.cs",
               "RelativeDocumentMoniker": "API_solicitud_vacaciones\\UsersVacations.cs",
@@ -68,13 +69,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UsersVacationsController.cs",
               "DocumentMoniker": "C:\\Users\\juand\\Desktop\\JD\\CG\\API\\API_VF\\API_solicitud_vacaciones\\API_solicitud_vacaciones\\Controllers\\UsersVacationsController.cs",
               "RelativeDocumentMoniker": "API_solicitud_vacaciones\\Controllers\\UsersVacationsController.cs",
               "ToolTip": "C:\\Users\\juand\\Desktop\\JD\\CG\\API\\API_VF\\API_solicitud_vacaciones\\API_solicitud_vacaciones\\Controllers\\UsersVacationsController.cs",
               "RelativeToolTip": "API_solicitud_vacaciones\\Controllers\\UsersVacationsController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAiwD4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T21:07:41.714Z",
               "EditorCaption": ""
