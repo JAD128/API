@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Udenar\\source\\repos\\API_front\\API_front\\API_front.csproj": {}
+    "C:\\Users\\juand\\Desktop\\JD\\CG\\API_repo\\API_front\\API_front\\API_front.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Udenar\\source\\repos\\API_front\\API_front\\API_front.csproj": {
+    "C:\\Users\\juand\\Desktop\\JD\\CG\\API_repo\\API_front\\API_front\\API_front.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Udenar\\source\\repos\\API_front\\API_front\\API_front.csproj",
+        "projectUniqueName": "C:\\Users\\juand\\Desktop\\JD\\CG\\API_repo\\API_front\\API_front\\API_front.csproj",
         "projectName": "API_front",
-        "projectPath": "C:\\Users\\Udenar\\source\\repos\\API_front\\API_front\\API_front.csproj",
-        "packagesPath": "C:\\Users\\Udenar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Udenar\\source\\repos\\API_front\\API_front\\obj\\",
+        "projectPath": "C:\\Users\\juand\\Desktop\\JD\\CG\\API_repo\\API_front\\API_front\\API_front.csproj",
+        "packagesPath": "C:\\Users\\juand\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\juand\\Desktop\\JD\\CG\\API_repo\\API_front\\API_front\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Udenar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juand\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -50,6 +50,10 @@
               "target": "Package",
               "version": "[2.1.35, )"
             },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -74,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
