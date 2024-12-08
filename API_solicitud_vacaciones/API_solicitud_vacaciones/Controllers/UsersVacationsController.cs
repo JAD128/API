@@ -21,8 +21,8 @@ namespace API_solicitud_vacaciones.Controllers
             }
             using (var connection = new SqlConnection(_connectionString))
             {
-                var sql = "insert into Usuarios(nombre, apellido, correo, telefono, nombre_g, correo_g, fecha_i, fecha_f, notas) values (@nombre, @apellido, @correo, @telefono, @nombre_g, @correo_g, @fecha_i, @fecha_f, @notas)";
-                var rowAffected = connection.Execute(sql, new { user.nombre, user.apellido, user.correo, user.telefono, user.nombre_g, user.correo_g, user.fecha_i, user.fecha_f, user.notas});
+                var sql = "insert into Usuarios(name,lastName,email,phone,name_g,email_g,date_ini,date_fi,notes) values (@name,@lastName,@email,@phone,@name_g,@email_g,@date_ini,@date_fi,@notes)";
+                var rowAffected = connection.Execute(sql, new { user.name, user.lastName, user.email, user.phone, user.name_g, user.email_g, user.date_ini, user.date_fi, user.notes});
                 
                 if (rowAffected > 0)
                 {
@@ -34,6 +34,32 @@ namespace API_solicitud_vacaciones.Controllers
                 }
             }
 
+        }
+
+        [HttpPost("validation")]
+
+        public IActionResult Validation([FromBody] UsersValidation user)
+        {
+            if (user == null)
+            {
+                return BadRequest("Invalid user data");
+            }
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                connection.Open();
+                var sql = "select * from Usuarios where lastName=@lastName and email=@email;";
+                var result = connection.QuerySingleOrDefault<UsersValidation>(sql, new { user.lastName, user.email });
+
+                if (result != null)
+                {
+                    return Ok("User found");
+                }
+                else
+                {
+                    return Unauthorized("Invalid credentials");
+                }
+            }
         }
     }
 }

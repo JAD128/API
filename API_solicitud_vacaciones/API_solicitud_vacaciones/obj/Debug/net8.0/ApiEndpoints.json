@@ -14,5 +14,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_solicitud_vacaciones.Controllers.UsersVacationsController",
+    "Method": "Validation",
+    "RelativePath": "api/UsersVacations/validation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "API_solicitud_vacaciones.UsersValidation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
